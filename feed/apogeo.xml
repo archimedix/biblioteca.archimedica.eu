@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Biblioteca Archimedica - Apogeo</title>
+  <updated>2008-09-12T00:44:20+00:00</updated>
+  <link rel="self" type="application/atom+xml" href="http://biblioteca.archimedica.eu/apogeo.xml"/>
+  <author>
+    <name>Archimedix</name>
+    <uri>http://www.archimedix.net</uri>
+    <email>io@archimedix.net</email>
+  </author>
+  <entry>
+    <title>Content</title>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"> Published: 2009 Subject: web Language: it</div>
+    </content>
+    <id>urn:billybobsbooks:1166</id>
+    <author>
+      <name>Cory Doctorow</name>
+    </author>
+    <updated>2008-09-12T00:44:20+00:00</updated>
+    <link type="application/epub+zip" href="http://www.apogeonline.com/2009/libri/9788850310852/ebook/epub/1085_content.epub" rel="http://opds-spec.org/acquisition" />
+    <link rel="x-stanza-cover-image-thumbnail" type="image/png" href="http://www.apogeonline.com/2009/libri/9788850310852/8850310852p400.gif"/>
+    <link rel="x-stanza-cover-image" type="image/png" href="http://www.apogeonline.com/2009/libri/9788850310852/8850310852p400.gif"/>
+  </entry>
+</feed>

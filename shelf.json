@@ -1,0 +1,19 @@
+[
+  {
+    "name": "prove-archimediche",
+    "title": "Prove Archimediche",
+    "info": "Le prime prove di pubblicazione con Baker",
+    "date": "2013-07-15 23:24:10",
+    "cover": "http://biblioteca.archimedica.eu/hpub/prove.png",
+    "url": "http://biblioteca.archimedica.eu/hpub/prove.hpub",
+    "product_id": "eu.archimedica.biblioteca.prove"
+  },
+  {
+    "name": "a-study-in-green",
+    "title": "A Study in Green",
+    "info": "An exciting remake of the original, with added mint!",
+    "date": "2010-10-10 10:10:10",
+    "cover": "http://bakerframework.com/newsstand-books/a-study-in-green.png",
+    "url": "http://bakerframework.com/newsstand-books/a-study-in-green.hpub"
+  } 
+]

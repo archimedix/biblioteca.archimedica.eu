@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Biblioteca Archimedica</title>
+  <updated>2009-12-18T17:40:58-17:00</updated>
+  <author>
+    <name>Archimedix</name>
+    <uri>http://www.archimedix.net/</uri>
+    <email>io@archimedix.net</email>
+  </author>
+  <subtitle>
+        Gli Ebook Archimedici
+    </subtitle>
+  <link rel="self" type="application/atom+xml" href="http://biblioteca.archimedica.eu/catalog.xml"/>
+<id>urn:uuid:60a76c80-d399-12d9-b91C-0883939e0af4</id>
+  <entry>
+    <title>Apogeo Online</title>
+    <updated>2009-12-28T17:40:59-07:00</updated>
+    <link type="application/atom+xml" href="apogeo.xml"/>
+    <id>urn:uuid:60a76c80-d399-12d9-b91C-0883939e0af6</id>
+    <summary>Apogeo Online</summary>
+  </entry>
+  <entry>
+    <title>Liber Liber</title>
+    <updated>2009-12-28T17:41:00-07:00</updated>
+    <link type="application/atom+xml" href="liberliber.xml"/>
+    <id>urn:uuid:60a76c80-d399-12d9-b91C-0883939e0af8</id>
+    <summary>Liber Liber</summary>
+  </entry>
+  <entry>
+    <title>La Terza</title>
+    <updated>2009-12-28T17:41:00-08:00</updated>
+    <link type="application/atom+xml" href="laterza.xml"/>
+    <id>urn:uuid:60a76c80-d399-12d9-b91C-0883939e0af7</id>
+    <summary>La Terza</summary>
+  </entry>
+  <entry>
+    <title>Cultura Libera</title>
+    <updated>2009-12-30T17:41:00-08:00</updated>
+    <link type="application/atom+xml" href="libera.xml"/>
+    <id>urn:uuid:60a76c80-d399-12d9-b91C-0883939e0af7</id>
+    <summary>La Terza</summary>
+  </entry>
+  <entry>
+    <title>Varie</title>
+    <updated>2009-12-31T17:41:00-08:00</updated>
+    <link type="application/atom+xml" href="var.xml"/>
+    <id>urn:uuid:60a76c80-d399-12d9-b91C-0883939e0af7</id>
+    <summary>Varie</summary>
+  </entry>
+  <entry>
+    <title>Archiati Edizioni</title>
+    <updated>2010-1-10T17:41:00-08:00</updated>
+    <link type="application/atom+xml" href="http://www.archiatiedizioni.it/catalog.xml"/>
+    <id>urn:uuid:60a76c80-d399-12d9-b91C-0883949e00f7</id>
+    <summary>ebook free sull'antroposofia</summary>
+  </entry>
+  <entry>
+    <title>da FeedBooks</title>
+    <updated>2010-1-10T17:41:00-08:00</updated>
+    <link type="application/atom+xml" href="http://www.feedbooks.com/userbooks/recent.rss?lang=it"/>
+    <id>urn:uuid:60a76c80-d399-13d9-b91C-0883939e00f7</id>
+    <summary>I libri in italiano su feedbooks</summary>
+  </entry>  
+  <entry>
+   <title>FeedCreator</title>
+   <updated>2010-1-10T17:41:00-08:00</updated>
+   <link type="application/atom+xml" href="http://biblioteca.archimedica.eu/feed/feedcreator/catalog.php"/>
+   <id>urn:uuid:60a76c80-d399-13a9-b91C-0883939e00f7</id>
+   <summary>Engine con Feedcrator Library</summary>
+ </entry>
+  <entry>
+   <title>Google books</title>
+   <updated>2010-1-14T17:41:00-08:00</updated>
+   <link type="application/atom+xml" href="http://books.google.com/books/feeds/users/2296396651588642965/volumes?alt=rss"/>
+   <id>urn:uuid:60a76c80-d399-13a9-b91C-0883939e00f7</id>
+   <summary>Link alla biblioteca PErsonale di Google books</summary>
+   </entry>
+</feed>
