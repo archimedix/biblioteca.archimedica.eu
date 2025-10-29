@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'impronta dell'iride - Alessio Santacroce - Biblioteca Archimedica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'archi-pink': '#e91e63',
+                        'archi-purple': '#9c27b0',
+                        'archi-deep-purple': '#673ab7',
+                        'archi-violet': '#7b2cbf',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-cover bg-center bg-fixed" style="background-image: url('../images/biblioteca-archimedica.jpg');">
+
+    <!-- Overlay -->
+    <div class="fixed inset-0 bg-gradient-to-br from-archi-purple/30 via-archi-deep-purple/20 to-archi-pink/30 backdrop-blur-sm"></div>
+
+    <!-- Main Content -->
+    <div class="relative z-10">
+
+        <!-- Header -->
+        <header class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-3xl p-6">
+                <nav class="flex items-center justify-between">
+                    <a href="../index.html" class="flex items-center text-white hover:text-archi-pink transition">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                        </svg>
+                        Torna alla homepage
+                    </a>
+                    <img src="../images/logo-biblioteca-archimedica.png" alt="Logo" class="h-16">
+                </nav>
+            </div>
+        </header>
+
+        <!-- Article -->
+        <article class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-3xl p-8 md:p-12">
+
+                <!-- Article Header -->
+                <div class="mb-8">
+                    <div class="flex flex-wrap items-center gap-2 mb-4">
+                        <span class="badge badge-date text-white">15 November 2007</span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                        L'impronta dell'iride - Alessio Santacroce
+                    </h1>
+
+                    <div class="flex items-center text-white/70">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-lg">di <strong>archimedix</strong></span>
+                    </div>
+
+                    
+                </div>
+
+                <!-- Article Content -->
+                <div class="article-content text-white/90 prose prose-lg prose-invert max-w-none">
+                    "<em><strong>La vita mi ha preso in contropiede. Sono qui a scrivere quello che per anni non sono riuscito a raccontare, spaventato dall'idea di riaprire una pagina troppo dolorosa, una ferita ancora aperta che mi tormenta l'anima.</strong></em>" L'evento è la presentazione del libro di Alessio Santacroce: "<strong>L'impronta dell'iride</strong>"; la perfetta cornice è la <strong>Biblioteca Archimedica</strong>, in Second Life: uno dei luoghi più adatti a incontri, scambi e approfondimenti culturali. <code> <a href="http://video.google.com/googleplayer.swf?docId=2679558764935410864">http://video.google.com/googleplayer.swf?docId=2679558764935410864</a></code> <a href="http://www.laquartavia.it/alessio.php">Alessio Santacroce</a> nasce come musicista, chitarrista e compositore di La Quarta Via, con cui collabora da anni. Ma ad un certo punto qualcosa è scattato in lui... (leggi tutto su <a href="http://www.tuttiscrittori.it/media/2nd-14.htm">http://www.tuttiscrittori.it/media/2nd-14.htm</a>)
+                </div>
+
+                <!-- Article Footer -->
+                <div class="mt-12 pt-8 border-t border-white/20">
+                    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                        <div class="text-white/60 text-sm">
+                            Pubblicato originariamente su <a href="http://biblioteca.archimedix.net/2007/11/15/limpronta-delliride-alessio-santacroce/" target="_blank" class="text-archi-pink hover:text-archi-purple">biblioteca.archimedix.net</a>
+                        </div>
+                        <a href="../index.html" class="glass-card-article px-6 py-3 rounded-xl text-white font-semibold hover:scale-105 transition">
+                            ← Torna agli articoli
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+        <!-- Footer -->
+        <footer class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-2xl p-6 text-center">
+                <p class="text-white/80">
+                    © 2006-2008 Biblioteca Archimedica - Second Life |
+                    Curator: <span class="text-archi-pink">Archimedix Bulan</span>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

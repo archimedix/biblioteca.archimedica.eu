@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compleanno Archimedico - Biblioteca Archimedica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'archi-pink': '#e91e63',
+                        'archi-purple': '#9c27b0',
+                        'archi-deep-purple': '#673ab7',
+                        'archi-violet': '#7b2cbf',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-cover bg-center bg-fixed" style="background-image: url('../images/biblioteca-archimedica.jpg');">
+
+    <!-- Overlay -->
+    <div class="fixed inset-0 bg-gradient-to-br from-archi-purple/30 via-archi-deep-purple/20 to-archi-pink/30 backdrop-blur-sm"></div>
+
+    <!-- Main Content -->
+    <div class="relative z-10">
+
+        <!-- Header -->
+        <header class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-3xl p-6">
+                <nav class="flex items-center justify-between">
+                    <a href="../index.html" class="flex items-center text-white hover:text-archi-pink transition">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                        </svg>
+                        Torna alla homepage
+                    </a>
+                    <img src="../images/logo-biblioteca-archimedica.png" alt="Logo" class="h-16">
+                </nav>
+            </div>
+        </header>
+
+        <!-- Article -->
+        <article class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-3xl p-8 md:p-12">
+
+                <!-- Article Header -->
+                <div class="mb-8">
+                    <div class="flex flex-wrap items-center gap-2 mb-4">
+                        <span class="badge badge-date text-white">05 April 2008</span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                        Compleanno Archimedico
+                    </h1>
+
+                    <div class="flex items-center text-white/70">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-lg">di <strong>archimedix</strong></span>
+                    </div>
+
+                    
+                </div>
+
+                <!-- Article Content -->
+                <div class="article-content text-white/90 prose prose-lg prose-invert max-w-none">
+                    Ad un anno dall'inaugurazione della Biblioteca, grande festa di compleanno per tutti i vecchi e i nuovi amici della nostra amata biblioteca virtuale. Il 12 Aprile 2008, ore 21 siste tutti invitati a partecipare ad una serata, dove ritrovare vecchi amici, incontrare persone nuove, e dove poter incontrare tutti gli autori che in quest'anno sono venuti nel mondo virtuale a presentare le loro opere. Dopo i libri dei più svariati argomenti, dall'economia alla musica, dalla poesia agli umarells, della tecnologia alla narrativa, per quest'occasione il tema sarà quantomai intrigante: Un libro sul cenacolo di Leonardo da Vinci!! <img src="http://www.liberaconoscenza.it/zcovers/il%20cenacolo%20di%20leonardo%20-%20cover.jpg" height="353" width="250" /> Nulla a che vedere con la fantastoria del best sellers degli ultimi anni, ma nemmeno una visione critica-accademica pittorica. L'autore, Fabio Delizia, rifacendosi alle comunicazioni di <a href="http://www.liberaconoscenza.it/rudolfsteiner/rudolf-steiner.html">Rudolf Steiner</a>, il fondatore dell'Antroposofia, ci presenterÃ una lettura scientifico-spirituale di quest'opera leonardesca <em>"...dentro a quel dipinto c'è il senso di tutta la Terra, di tutta la nostra storia! Se un marziano venisse sulla Terra, capirebbe poco andando in giro, ma di fronte a questo capolavoro "“ ecco perché ho chiamato la conferenza <em>Anatomia di un capolavoro cosmico</em> - capirebbe il senso di tutta l'evoluzione terrestre!"¦"</em> Fabio Delizia La presentazione avverrà nella nuova area per gli eventi, che insieme all'area <a href="http://biblioteca.archimedica.eu/?page_id=37">THESIS</a> sono le novità degli ultimi tempi. La serata si concluderÃ, per i superstiti, con una festa, armatevi quindi di gesture per ballare e alcool virtuale in abbondanza:)
+                </div>
+
+                <!-- Article Footer -->
+                <div class="mt-12 pt-8 border-t border-white/20">
+                    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                        <div class="text-white/60 text-sm">
+                            Pubblicato originariamente su <a href="http://biblioteca.archimedix.net/2008/04/06/compleanno-archimedico/" target="_blank" class="text-archi-pink hover:text-archi-purple">biblioteca.archimedix.net</a>
+                        </div>
+                        <a href="../index.html" class="glass-card-article px-6 py-3 rounded-xl text-white font-semibold hover:scale-105 transition">
+                            ← Torna agli articoli
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+        <!-- Footer -->
+        <footer class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-2xl p-6 text-center">
+                <p class="text-white/80">
+                    © 2006-2008 Biblioteca Archimedica - Second Life |
+                    Curator: <span class="text-archi-pink">Archimedix Bulan</span>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inaugurazione Biblioteca @ idearium - Biblioteca Archimedica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'archi-pink': '#e91e63',
+                        'archi-purple': '#9c27b0',
+                        'archi-deep-purple': '#673ab7',
+                        'archi-violet': '#7b2cbf',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-cover bg-center bg-fixed" style="background-image: url('../images/biblioteca-archimedica.jpg');">
+
+    <!-- Overlay -->
+    <div class="fixed inset-0 bg-gradient-to-br from-archi-purple/30 via-archi-deep-purple/20 to-archi-pink/30 backdrop-blur-sm"></div>
+
+    <!-- Main Content -->
+    <div class="relative z-10">
+
+        <!-- Header -->
+        <header class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-3xl p-6">
+                <nav class="flex items-center justify-between">
+                    <a href="../index.html" class="flex items-center text-white hover:text-archi-pink transition">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                        </svg>
+                        Torna alla homepage
+                    </a>
+                    <img src="../images/logo-biblioteca-archimedica.png" alt="Logo" class="h-16">
+                </nav>
+            </div>
+        </header>
+
+        <!-- Article -->
+        <article class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-3xl p-8 md:p-12">
+
+                <!-- Article Header -->
+                <div class="mb-8">
+                    <div class="flex flex-wrap items-center gap-2 mb-4">
+                        <span class="badge badge-date text-white">12 April 2007</span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                        Inaugurazione Biblioteca @ idearium
+                    </h1>
+
+                    <div class="flex items-center text-white/70">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-lg">di <strong>archimedix</strong></span>
+                    </div>
+
+                    
+                </div>
+
+                <!-- Article Content -->
+                <div class="article-content text-white/90 prose prose-lg prose-invert max-w-none">
+                    L'isola e' nata da un luminare Italiano sulle innovazioni tecnologiche ed umane (<a href="http://www.leeander.com/">Leeander</a>) e l'atmosfera che si respira da quelle parti e di una comunita' di Hacker che da libero sfogo alle proprie iniziative Sull'isola di Idearium, ho dato sfogo alla creativita' architetturale, dandone un atmosfera mistica e suggestiva. Oltre l'architettura, qui sono nati i primi script di scambio dati tra SL ed il web. Attraverso questi script e' possibile commentare i libri e vedere i commenti degli altri utenti, creando una comunita' culturale con gli stessi autori, il tutto e' poi memorizzato su un sito web, in modo da fare "mashup" tra web e SL. Anche se ci ho lavorato da molto tempo prima, questa sede, e' <a href="http://www.secondlifeblog.it/index.php/2007/04/14/inaugurazione-nuova-biblioteca-archimedica/">stata inaugurata</a> il 16/04/2007. <img src="http://www.archimedix.eu/biblio_archimedica.jpg" height="329" width="500" /> L'evento di inaugurazione è stato un reading di poesie di Luisa Fava, tratte dal suo ultimo libro di poesie Photo-ph: l'atmosfera suggestiva e il pubblico molto partecipativo hanno fatto vivere dei momenti davvero intensi. <img src="http://farm1.static.flickr.com/211/464423803_cf122f5492.jpg?v=0" height="316" width="500" />
+                </div>
+
+                <!-- Article Footer -->
+                <div class="mt-12 pt-8 border-t border-white/20">
+                    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                        <div class="text-white/60 text-sm">
+                            Pubblicato originariamente su <a href="http://biblioteca.archimedix.net/2007/04/12/inaugurazione-biblioteca-idearium/" target="_blank" class="text-archi-pink hover:text-archi-purple">biblioteca.archimedix.net</a>
+                        </div>
+                        <a href="../index.html" class="glass-card-article px-6 py-3 rounded-xl text-white font-semibold hover:scale-105 transition">
+                            ← Torna agli articoli
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+        <!-- Footer -->
+        <footer class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-2xl p-6 text-center">
+                <p class="text-white/80">
+                    © 2006-2008 Biblioteca Archimedica - Second Life |
+                    Curator: <span class="text-archi-pink">Archimedix Bulan</span>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

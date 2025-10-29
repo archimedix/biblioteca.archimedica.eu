@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Archimedica - Archivio Storico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'archi-pink': '#e91e63',
+                        'archi-purple': '#9c27b0',
+                        'archi-deep-purple': '#673ab7',
+                        'archi-violet': '#7b2cbf',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-cover bg-center bg-fixed" style="background-image: url('images/biblioteca-archimedica.jpg');">
+
+    <!-- Overlay -->
+    <div class="fixed inset-0 bg-gradient-to-br from-archi-purple/30 via-archi-deep-purple/20 to-archi-pink/30 backdrop-blur-sm"></div>
+
+    <!-- Main Content -->
+    <div class="relative z-10">
+
+        <!-- Header -->
+        <header class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-3xl p-8 text-center">
+                <img src="images/logo-biblioteca-archimedica.png" alt="Biblioteca Archimedica" class="h-32 mx-auto mb-6">
+                <h1 class="text-5xl font-bold text-white mb-4">Biblioteca Archimedica</h1>
+                <p class="text-xl text-white/90 max-w-3xl mx-auto">
+                    Archivio storico della biblioteca virtuale di Second Life (2006-2008).
+                    Uno spazio dedicato alla cultura, ai libri e agli eventi letterari nel metaverso.
+                </p>
+            </div>
+        </header>
+
+        <!-- Stats -->
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl font-bold text-archi-pink mb-2">29</div>
+                    <div class="text-white/90">Articoli</div>
+                </div>
+                <div class="glass-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl font-bold text-archi-purple mb-2">2006-2008</div>
+                    <div class="text-white/90">Periodo</div>
+                </div>
+                <div class="glass-card rounded-2xl p-6 text-center">
+                    <div class="text-4xl font-bold text-archi-violet mb-2">Second Life</div>
+                    <div class="text-white/90">Metaverso</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Articles Section -->
+        <div class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-3xl p-8">
+                <h2 class="text-3xl font-bold text-white mb-8">Archivio Articoli</h2>
+
+                <div id="articles-list" class="space-y-4">
+                    <!-- Articles will be loaded here by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="container mx-auto px-4 py-8">
+            <div class="glass-card rounded-2xl p-6 text-center">
+                <p class="text-white/80">
+                    © 2006-2008 Biblioteca Archimedica - Second Life |
+                    Curator: <span class="text-archi-pink">Archimedix Bulan</span>
+                </p>
+                <p class="text-white/60 text-sm mt-2">
+                    Archivio preservato con amore per la cultura digitale
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
