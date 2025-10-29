@@ -82,35 +82,7 @@ Un sito moderno che preserva tutti i contenuti con:
 - 🌐 **UTF-8** - Testi correttamente codificati in italiano
 - 🎨 **Estetica** ispirata alla biblioteca virtuale di Second Life
 
-```bash
-# Visualizza il sito in locale
-cd newsite
-python3 -m http.server 8000
-# Apri http://localhost:8000
-```
-
-### Gli Articoli
-
-Tutti i 29 articoli storici sono disponibili, tra cui:
-
-**2008**
-- Intervista prima del compleanno archimedico
-- Ringraziamenti (festa del primo compleanno)
-- Compleanno Archimedico
-- Economia Canaglia
-- Jesus Christ CyberStar
-
-**2007**
-- La scoperta del Metaverso - Premiazione
-- Luca Nesti vs GianLuca Nicoletti
-- Alessio Santacroce su Second Life
-- Il tramonto dalla Biblioteca
-- KaiZen
-
-**2006-2007**
-- Inaugurazione Biblioteca @ idearium
-- Biblioteca Parioli (il post più antico!)
-- E molti altri...
+[archimedix.net/biblioteca](https://archimedix.net/biblioteca)
 
 ## Tecnologie
 
@@ -126,10 +98,6 @@ Tutti i 29 articoli storici sono disponibili, tra cui:
 - Design glassmorphism
 - 100% statico (nessun database necessario)
 
-### Gli Strumenti
-- Python 3 per parsing e generazione
-- Wayback Machine per il recupero
-- Git per il versioning
 
 ## Contributi
 
@@ -144,14 +112,6 @@ Sei benvenuto ad aprire una issue o una pull request!
 ## Licenza
 
 I contenuti storici appartengono ai rispettivi autori. Il codice del sito è open source.
-
----
-
-## Per Approfondire
-
-- **CLAUDE.md** - Documentazione tecnica completa per sviluppatori
-- **newsite/README.md** - Informazioni specifiche sul nuovo sito
-- **wayback-scraper/README.md** - Come usare gli strumenti di scraping
 
 ---
 
